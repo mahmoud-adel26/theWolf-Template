@@ -1,0 +1,204 @@
+/* var  */
+
+:root {
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+    --light-grey-color: #EEEEEE;
+}
+
+
+/* var  */
+
+
+
+
+
+
+
+
+
+
+/* start box */
+
+ 
+
+/* end box */
+
+
+
+/* start padding & margin  */
+
+.p-10 {
+    padding: 10px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.m-0{margin: 0;}
+.mb-0{margin-bottom: 0;}
+.mt-5{margin-top: 5px;}
+.mb-10 {margin-bottom: 10px;}
+.mb-20 {margin-bottom: 20px;}
+.m-20 {
+    margin: 20px;
+}
+
+.mt-0 {
+    margin-top: 0;
+}
+
+
+/* end padding & margin  */
+
+/* start colors */
+
+.bg-eee {
+    background-color: #EEE;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.c-black {
+    color: black;
+}
+
+.c-grey {color: var(--grey-color);}
+/* end colors */
+
+/* start borders */
+
+.rad-6 {
+    border-radius: 6px;
+}
+.rad-10 {
+    border-radius: 10px;
+}
+.rad-50{
+    border-radius: 50%;
+}
+
+/* end borders */
+
+
+/* start positions */
+
+.p-relative {
+    position: relative;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.txt-centeringV{
+    margin: auto 0;
+}
+
+/* end positions */
+
+/* start flex  */
+
+.d-flex {
+    display: flex;
+ }
+
+.Falign-c {
+    align-items: center;
+}
+
+/* end flex  */
+
+/* start grid */
+
+.d-grid {
+    display: grid;
+}
+
+.grid-child {
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+/* end grid */
+
+/* start block */
+
+@media (max-width:767px) {
+    .d-block-mobile {
+        display: block;
+    }
+}
+
+/* end block */
+
+/* start font */
+
+.txt-c {
+    text-align: center;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+.fs-15 {
+    font-size: 15px;
+}
+.fs-16 {
+font-size: 16px;
+}
+
+@media (max-width:767px) {
+    .txt-c-mobile{
+        text-align: center
+    }
+}
+
+/* end font */
+
+/*start width */
+.w-full {
+    width: 100%;
+}
+/*end width */
+
+
+
+/* start components */
+.flex-between {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-around {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+/* end components */
+
+/* display */
+.over-f {
+    overflow: hidden;
+}
+
+/* display */
+
